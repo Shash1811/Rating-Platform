@@ -145,12 +145,14 @@ Verified in this workspace:
 - Backend build: `npm.cmd run build` from `backend/`
 - Frontend type check: `npx.cmd tsc --noEmit` from `frontend/`
 
-Not fully verified because of the local environment:
-
-- Frontend production build with `npm.cmd run build` currently fails with `spawn EPERM`
 
 ## Notes
 
 - The backend uses `synchronize: true` in TypeORM, which is suitable for local development only.
 - Store creation requires selecting an existing store owner.
-- The application now includes a root backend endpoint so `GET /` does not return `404`.
+
+## Outputs
+
+#Database:
+<img width="1918" height="1032" alt="image" src="https://github.com/user-attachments/assets/1c3527ed-563a-4327-beda-d80bb1a9293c" />
+
