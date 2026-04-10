@@ -151,8 +151,31 @@ Verified in this workspace:
 - The backend uses `synchronize: true` in TypeORM, which is suitable for local development only.
 - Store creation requires selecting an existing store owner.
 
+## How to Run?
+
+Run the backend:
+cd "C:\Users\Your_user_name\OneDrive\Desktop\Full_Stack_Coding\backend"
+npm.cmd run start:dev
+
+Then Run the frontend in another terminal:
+cd "C:\Users\Your_user_name\OneDrive\Desktop\Full_Stack_Coding\frontend"
+npm.cmd start
+
+
 ## Outputs
 
 #Database:
 <img width="1918" height="1032" alt="image" src="https://github.com/user-attachments/assets/1c3527ed-563a-4327-beda-d80bb1a9293c" />
+
+#Home Page
+<img width="1685" height="896" alt="image" src="https://github.com/user-attachments/assets/41c1b1ae-d4c4-4f25-8a67-264daea70c6a" />
+
+#System Administrator
+<img width="1612" height="922" alt="image" src="https://github.com/user-attachments/assets/348a7e89-bcbd-4c08-9f59-da3604b58623" />
+<img width="1637" height="902" alt="image" src="https://github.com/user-attachments/assets/c0d02c21-707c-42b6-9726-55e4e4b997bd" />
+<img width="1598" height="892" alt="image" src="https://github.com/user-attachments/assets/424cb75a-ae3d-4ede-be07-9d6f90bec9c3" />
+<img width="1620" height="927" alt="image" src="https://github.com/user-attachments/assets/a1db16cf-362d-4f16-865e-4a92d2fead6d" />
+<img width="1572" height="888" alt="image" src="https://github.com/user-attachments/assets/11b6833b-6c4b-42e9-8a57-c8bcd826118b" />
+
+
 
