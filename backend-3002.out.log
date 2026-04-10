@@ -1,0 +1,50 @@
+
+> backend@1.0.0 start:dev
+> ts-node src/main.ts
+
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +72ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPassportModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mJwtModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +190ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUsersModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mStoresModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRatingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +23ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/register, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/change-password, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/profile, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUsersController {/users}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/dashboard/stats, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/users/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mStoresController {/stores}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/stores, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/stores, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/stores/my-stores, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/stores/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/stores/:id, DELETE} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mRatingsController {/ratings}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/ratings/stores/:storeId, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/ratings/stores/:storeId, PUT} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/ratings/stores/:storeId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/ratings/stores/:storeId/stats, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/ratings/my-ratings, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/ratings/my-ratings/stores/:storeId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/ratings/stores/:storeId, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5028  - [39m10/04/2026, 5:08:45 pm [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+Application is running on: http://localhost:3002
